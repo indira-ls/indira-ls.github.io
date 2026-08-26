@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Détails AC Connecter - Indira Luis</title>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    body { background: #fafafa; }
+    .ac-block { margin-bottom: 36px; border-left: 5px solid #D49C74; background: #fff; box-shadow: 0 2px 18px rgba(0,0,0,0.06); border-radius: 0 8px 8px 0; overflow: hidden; }
+    .ac-header { padding: 22px 25px 18px; border-bottom: 1px solid #f0e8e0; }
+    .ac-number { color: #D49C74; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; display: block; margin-bottom: 6px; }
+    .ac-header h5 { margin: 0; font-size: 1rem; font-weight: 600; color: #2c2c2c; line-height: 1.4; }
+    .ressources-line { padding: 10px 25px; background: #fdf6f0; border-bottom: 1px solid #f0e8e0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    .ressources-line small { color: #888; font-size: 0.75rem; margin-right: 4px; }
+    .badge-ressource { background: #fff; border: 1px solid #D49C74; color: #b07a4e; font-size: 0.72rem; font-weight: 600; padding: 3px 9px; border-radius: 20px; }
+    .reflexif-accordion { padding: 4px 25px 20px; }
+    .reflexif-item { border-bottom: 1px solid #f5ede5; }
+    .reflexif-item:last-child { border-bottom: none; }
+    .reflexif-btn { background: none; border: none; width: 100%; text-align: left; padding: 13px 0; display: flex; align-items: center; gap: 10px; cursor: pointer; font-size: 0.875rem; font-weight: 600; color: #444; transition: color .2s; }
+    .reflexif-btn:hover { color: #D49C74; }
+    .reflexif-btn .r-icon { width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; flex-shrink: 0; }
+    .reflexif-btn .r-chevron { margin-left: auto; font-size: 0.75rem; transition: transform .25s; color: #aaa; }
+    .reflexif-btn[aria-expanded="true"] .r-chevron { transform: rotate(180deg); }
+    .reflexif-body { padding: 0 0 14px 38px; font-size: 0.875rem; line-height: 1.7; color: #555; }
+    .reflexif-body p { margin: 0 0 8px; } .reflexif-body ul { margin: 4px 0 8px; padding-left: 18px; } .reflexif-body li { margin-bottom: 4px; }
+    .q1 .r-icon { background: #e8f4f8; color: #2196a8; } .q2 .r-icon { background: #fff3e0; color: #D49C74; } .q3 .r-icon { background: #f0f7ee; color: #4caf50; }
+    .q4 .r-icon { background: #fce4ec; color: #e91e63; } .q5 .r-icon { background: #ede7f6; color: #7c4dff; } .q6 .r-icon { background: #e8f5e9; color: #388e3c; }
+    .proof-box { background: #EFD6DF; padding: 12px 16px; border-radius: 6px; margin: 12px 0 0; font-size: 0.85rem; display: flex; align-items: center; gap: 8px; }
+    .proof-box i { color: #c2606e; font-size: 1rem; flex-shrink: 0; } .proof-box a { color: #a0495a; font-weight: 600; }
+    .btn-back { background: #D49C74; color: white; margin-bottom: 28px; border-radius: 6px; }
+    .btn-back:hover { background: #b57f5a; color: white; }
+    .semestre-section { display: none; }
+    .section-title h2 { font-size: 1.6rem; } .section-title p { color: #888; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main id="main">
+<section class="container py-5">
+<a href="services.html#skills" class="btn btn-back"><i class="bi bi-arrow-left"></i> Retour aux compétences</a>
+<div id="section-s5" class="semestre-section">
+<div class="section-title text-start mb-4">
+  <h2>UE Connecter — Semestre 5</h2>
+  <p>Apprentissages critiques AC32.01 à AC32.05 · Ressources : SAE5.01, SAE5.ROM.03, R5.01, R5.03, R5.05, R5.06, R5.08, R5.ROM.10 · Portfolio</p>
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC32.01</span><h5>Déployer un système de communication pour l'entreprise</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAE5.01</span><span class="badge-ressource">R5.01 WiFi avancé</span><span class="badge-ressource">R5.02 Supervision des réseaux</span><span class="badge-ressource">R5.03 Ingénierie systèmes télécoms</span><span class="badge-ressource">R5.05 Anglais pro</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3201q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3201q1" class="collapse reflexif-body"><p>Dans la <strong>SAE5.01</strong>, j'ai déployé un système de communication complet permettant aux étudiants de se connecter à des environnements de TP via une interface web centralisée. Le système intègre l'authentification RADIUS/AD, la distribution d'environnements Docker (Kali, Ubuntu, Wireshark) et l'accès graphique distant via noVNC — constituant un vrai système de communication pédagogique multi-utilisateurs. J'ai complété ce système par un suivi de bon fonctionnement inspiré des principes de <strong>R5.02</strong> : vérification régulière de l'état des conteneurs et des services (<code>docker ps</code>, logs Nginx/RADIUS) pour m'assurer que le système de communication restait disponible pour tous les utilisateurs.</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3201q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3201q2" class="collapse reflexif-body"><p>Un opérateur ou une entreprise doit être capable de mettre à disposition des ressources informatiques accessibles à distance de façon sécurisée. Cette SAE simule exactement ce scénario : déployer un service de communication (accès à des environnements de travail) pour un groupe d'utilisateurs identifiés.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3201q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3201q3" class="collapse reflexif-body"><p>Architecture Flask (backend) + RADIUS Windows Server (authentification) + Docker (environnements) + Nginx HTTPS (sécurisation du canal). Les notions de gestion centralisée WiFi et d'authentification vues en <strong>R5.01</strong> (WPA2 Entreprise, 802.1X, RADIUS) ont directement guidé la mise en place du serveur NPS. Pour la disponibilité du service, j'ai réutilisé la logique de supervision vue en <strong>R5.02</strong> (principe Manager/Agent, remontée d'alertes en cas de défaillance) en la transposant à la surveillance manuelle des conteneurs Docker et des logs applicatifs.</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3201q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3201q4" class="collapse reflexif-body"><p>La configuration du serveur NPS/RADIUS sur Windows Server pour qu'il communique correctement avec le client Flask a été délicate : gestion des stratégies de connexion, méthodes d'authentification PEAP/MS-CHAPv2, et clé secrète partagée entre NPS et l'application.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3201q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3201q5" class="collapse reflexif-body"><p>J'ai compris le fonctionnement réel d'une architecture AAA (Authentication, Authorization, Accounting) en environnement entreprise. Le RADIUS n'est pas qu'un protocole WiFi : il est le standard pour tout système d'authentification centralisée, y compris les accès VPN et les infrastructures opérateurs.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3201q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3201q6" class="collapse reflexif-body"><p>Prévoir des tests d'intégration RADIUS en amont avec des outils comme radtest avant d'intégrer dans Flask. Documenter chaque stratégie NPS configurée pour faciliter la maintenance.</p></div></div>
+</div>
+  <div class="proof-box"><i class="bi bi-file-earmark-pdf-fill"></i><span><strong>Preuve :</strong> <a href="pdf/SAE501-Indira_Imene_Loick.pdf" target="_blank">Rapport SAE5.01 (PDF)</a></span></div>
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC32.02</span><h5>Déployer un réseau d'accès sans fil pour le réseau d'entreprise en intégrant les enjeux de la sécurité</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAE5.01</span><span class="badge-ressource">R5.01 WiFi avancé</span><span class="badge-ressource">R5.05 Anglais pro</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3202q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3202q1" class="collapse reflexif-body"><p>En <strong>R5.01</strong>, j'ai étudié et mis en application les concepts de déploiement WiFi avancé : normes 802.11 (WiFi 4/5/6), gestion de la couverture radio avec Ekahau, planification des points d'accès, gestion des canaux (1, 6, 11 sur 2,4 GHz ; 19 canaux non-chevauchants sur 5 GHz), et configuration de la sécurité WPA2 Entreprise avec 802.1X sur WLC Cisco.</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3202q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3202q2" class="collapse reflexif-body"><p>Le WiFi est le vecteur d'accès réseau dominant en entreprise. Un technicien réseau doit maîtriser la planification de la couverture radio (signal RSSI, interférences, densité d'utilisateurs) et la sécurisation de l'accès sans fil (WPA3, authentification 802.1X) pour protéger le SI contre les accès non autorisés.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3202q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3202q3" class="collapse reflexif-body"><p>Cours <strong>R5.01</strong> : étude des normes 802.11 (OFDMA, MU-MIMO, TWT du WiFi 6), gestion des canaux et interférences, valeurs RSSI (-30dBm excellent → -90dBm inutilisable). Utilisation d'<strong>Ekahau</strong> pour la modélisation théorique (chargement de plan, édition des exigences, simulation de couverture). Configuration WPA2 Entreprise sur WLC Cisco avec serveur RADIUS et protocoles EAP-TLS/PEAP.</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3202q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3202q4" class="collapse reflexif-body"><p>La corrélation entre théorie (valeurs dBm, canaux non-chevauchants) et pratique (configuration réelle sur WLC) n'était pas immédiate. La configuration du WLC (VLAN, DHCP scope, serveur AAA, 802.1X) implique de nombreuses étapes interdépendantes qui peuvent mener à des erreurs silencieuses.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3202q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3202q5" class="collapse reflexif-body"><p>La planification WiFi est une discipline à part entière : il ne suffit pas de placer des bornes, il faut modéliser la propagation radio selon les matériaux (mur porteur vs cloison légère), prévoir la densité d'utilisateurs et choisir les fréquences en fonction de l'environnement. Le WiFi 6 (802.11ax) apporte des réponses concrètes aux problèmes de densité par OFDMA et MU-MIMO.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3202q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3202q6" class="collapse reflexif-body"><p>Réaliser un audit WiFi sur site (walktest avec Ekahau) en plus de la modélisation théorique, pour comparer les résultats simulés avec la réalité. Tester la configuration WLC en environnement multi-AP pour valider le roaming.</p></div></div>
+</div>
+  <div class="proof-box"><i class="bi bi-file-earmark-pdf-fill"></i><span><strong>Preuve :</strong> <a href="pdf/TP_WiFi.pdf">Heatmap Ekahau S5</a></span></div>
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC32.03</span><h5>Déployer un réseau d'accès fixe ou mobile pour un opérateur de télécommunications en intégrant la sécurité</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAE5.ROM.03</span><span class="badge-ressource">R5.ROM.10 Sécurité et QoS opérateurs</span><span class="badge-ressource">R5.ROM.11 Automatisation réseaux</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3203q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3203q1" class="collapse reflexif-body"><p>Dans la <strong>SAE5.ROM.03</strong> et les ressources associées, j'ai étudié et mis en pratique les mécanismes d'accès réseau opérateur : AAA (PPPoE, IPoE, BAS/BNG), segmentation (VLAN, VRF, ACL, tunnels), QoS (DiffServ, CBWFQ, marquage DSCP) et fonctions de sécurité sur équipements d'accès (DHCP Snooping, IP Source Guard, port security).</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3203q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3203q2" class="collapse reflexif-body"><p>Un technicien réseau opérateur gère l'accès au réseau de millions d'abonnés. Comprendre les mécanismes d'authentification et de sécurisation à l'échelle opérateur (BNG, Radius, segmentation VRF) est fondamental pour mon profil ROM orienté Orange.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3203q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3203q3" class="collapse reflexif-body"><p>Ressource <strong>R5.ROM.10</strong> : mise en œuvre AAA sur équipements opérateurs, DHCP Snooping et IP Source Guard pour protéger l'accès, segmentation VRF/VLAN. QoS : classification, marquage DSCP, ordonnancement CBWFQ/WRR. TP sur équipements réels ou simulés (GNS3/EVE-NG).</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3203q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3203q4" class="collapse reflexif-body"><p>La compréhension du chaîne d'authentification complète (client → BAS → Radius → AD) avec ses protocoles multiples (PPPoE, IPoE, EAP) demande un effort d'abstraction important. La QoS est particulièrement délicate car elle doit être cohérente de bout en bout (classification côté client, marquage réseau, ordonnancement cœur).</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3203q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3203q5" class="collapse reflexif-body"><p>Les réseaux opérateurs ont des contraintes de sécurité et de QoS radicalement différentes des réseaux entreprises : le nombre d'abonnés, la mutualisation des ressources et les SLAs imposent une ingénierie rigoureuse. Cette compréhension est directement utile dans mon alternance chez Orange.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3203q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3203q6" class="collapse reflexif-body"><p>Mettre en place un environnement de simulation plus complet (émulation BNG + clients PPPoE + serveur RADIUS) pour tester des scénarios de pannes et de montée en charge.</p></div></div>
+</div>
+  
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC32.04</span><h5>Permettre aux collaborateurs de se connecter de manière sécurisée au système d'information de l'entreprise</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAE5.01</span><span class="badge-ressource">R5.01 WiFi avancé</span><span class="badge-ressource">R5.05 Anglais pro</span><span class="badge-ressource">R5.CYBER.09 Architectures sécurisées</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3204q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3204q1" class="collapse reflexif-body"><p>Dans la <strong>SAE5.01</strong>, j'ai mis en œuvre l'ensemble de la chaîne de connexion sécurisée : authentification RADIUS/AD (802.1X), chiffrement HTTPS (TLS avec certificat OpenSSL), isolation des environnements par utilisateur (MariaDB + Docker), et chiffrement des données sensibles (Fernet AES-128). Chaque utilisateur ne peut accéder qu'à ses propres conteneurs. En parallèle, la formation <strong>R5.CYBER.09</strong> (labs Stormshield CSNA/CSNE) m'a fait pratiquer la sécurisation de connexion à un SI côté pare-feu : authentification via portail captif lié à un annuaire LDAP/Active Directory, et règles de filtrage nominatives attribuées par utilisateur après authentification — soit la même logique de contrôle d'accès individualisé que celle appliquée dans SAE5.01, mais vue cette fois côté équipement périmétrique plutôt que côté application.</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3204q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3204q2" class="collapse reflexif-body"><p>La sécurisation des accès est un enjeu critique en entreprise : un accès non authentifié ou non chiffré expose l'ensemble du SI. Il faut penser la sécurité comme une architecture multicouche (transport, authentification, autorisation, isolation des données) et non comme un ajout ponctuel.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3204q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3204q3" class="collapse reflexif-body"><p>RADIUS/NPS pour l'authentification, certificat TLS auto-signé OpenSSL pour HTTPS, Fernet (AES-128 symétrique) pour le chiffrement des credentials dans le code, fichier <code>.env</code> hors dépôt Git pour les clés. Principes WPA2/WPA3 (AES, CCMP) vus en <strong>R5.01</strong> appliqués au contexte applicatif. Sur les labs Stormshield (<strong>R5.CYBER.09</strong>), mise en place concrète d'un portail captif interceptant les flux HTTP/HTTPS non authentifiés, liaison à une base LDAP interne, et définition de règles de filtrage conditionnées par l'identité de l'utilisateur (ex. autoriser un service uniquement à un utilisateur spécifique).</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3204q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3204q4" class="collapse reflexif-body"><p>La gestion correcte des secrets (ne pas mettre de mot de passe en clair dans docker-compose.yml, gérer le fichier .env) et la cohérence entre le certificat auto-signé et les connexions HTTPS (avertissements navigateur en environnement de test) ont nécessité plusieurs itérations.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3204q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3204q5" class="collapse reflexif-body"><p>La sécurité "by design" est un principe fondamental : chaque composant doit être pensé sécurisé dès sa conception. J'ai compris que le chiffrement du transport (HTTPS) ne suffit pas si les données au repos (BDD, fichiers de config) ne sont pas également protégées.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3204q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3204q6" class="collapse reflexif-body"><p>Utiliser Let's Encrypt (via Certbot) plutôt qu'un certificat auto-signé, même en environnement de test, pour éliminer les avertissements navigateur et simuler un contexte production réaliste.</p></div></div>
+</div>
+  
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC32.05</span><h5>Collaborer en mode projet en français et en anglais</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAE5.01</span><span class="badge-ressource">SAE5.02</span><span class="badge-ressource">SAE5 Entreprise</span><span class="badge-ressource">R5.05 Anglais pro</span><span class="badge-ressource">R5.06 Communication</span><span class="badge-ressource">R5.08 Gestion de projets</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3205q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3205q1" class="collapse reflexif-body"><p>Collaboration en équipe de 3 sur la SAE5.01 avec des outils collaboratifs (GitHub, documents partagés). En <strong>R5.05</strong>, travail sur la communication professionnelle en anglais : présentation technique, documentation, veille technologique sur des sources anglophones (documentation Docker, Flask, RADIUS). En parallèle, la <strong>SAE5.Entreprise</strong> a mobilisé ma capacité à collaborer en mode projet dans un contexte professionnel réel, en alternance chez Orange, où les échanges avec les équipes techniques et mon tuteur suivent des codes différents de ceux d'un groupe projet étudiant.</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3205q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3205q2" class="collapse reflexif-body"><p>Dans un environnement professionnel R&T, la collaboration en anglais est incontournable : documentation technique, standards (RFCs, normes IEEE), conférences et échanges avec des équipes internationales. L'alternance chez Orange confirme cette réalité.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3205q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3205q3" class="collapse reflexif-body"><p>Outils collaboratifs (GitHub, messagerie). Anglais technique : lecture de la documentation officielle Flask, Docker, RFC RADIUS, normes 802.11 en anglais. Préparation de livrables en français (rapport SAE) et anglais (résumé technique, présentation). Méthodes R5.06 pour la communication orale et écrite.</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3205q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3205q4" class="collapse reflexif-body"><p>Maintenir la cohérence terminologique entre les membres de l'équipe (termes techniques français/anglais) et s'assurer que tout le monde comprend les concepts au même niveau quand certains cherchent les réponses directement en anglais.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3205q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3205q5" class="collapse reflexif-body"><p>La documentation officielle en anglais est souvent plus précise et plus à jour que les traductions. Savoir lire de la documentation technique anglophone est une compétence autonomisante pour un ingénieur réseau.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5AC3205q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5AC3205q6" class="collapse reflexif-body"><p>Intégrer des revues de code et de documentation bilingues dans le workflow d'équipe pour pratiquer davantage la collaboration en anglais.</p></div></div>
+</div>
+  
+</div>
+
+</div>
+<div id="section-s6" class="semestre-section">
+<div class="section-title text-start mb-4">
+  <h2>UE Connecter — Semestre 6</h2>
+  <p>Apprentissages critiques AC32.01 à AC32.05 · Ressources : SAÉ 6.ROM.01, SAÉ 6.Entreprise, R6.01, R6.03, R6.ROM.04 · Portfolio</p>
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC32.01</span><h5>Déployer un système de communication pour l'entreprise</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAÉ 6.ROM.01</span><span class="badge-ressource">R6.ROM.04 Veille technologique</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3201q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3201q1" class="collapse reflexif-body"><p>Dans le cadre de la <strong>SAÉ 6.ROM.01</strong>, j'ai réalisé une veille technologique approfondie sur les systèmes de communication de nouvelle génération (standard IMT-2030 / 6G) : architectures hybrides intégrant antennes terrestres, drones et satellites en orbite basse (réseaux NTN), surfaces intelligentes réfléchissantes (RIS) et intégration native de l'IA pour l'auto-optimisation du réseau. J'ai analysé comment ces ruptures technologiques redéfinissent la notion même de "système de communication d'entreprise".</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3201q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3201q2" class="collapse reflexif-body"><p>Un technicien réseau ne se contente pas de déployer les systèmes de communication existants : il doit anticiper leur évolution pour conseiller une entreprise sur ses choix d'infrastructure à moyen terme. Comprendre où va la 6G permet de dimensionner aujourd'hui des systèmes compatibles avec les usages de demain (débits Térabit, latence sub-milliseconde).</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3201q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3201q3" class="collapse reflexif-body"><p>Analyse de documents prospectifs et normatifs (UIT, 3GPP), étude du sommet 6G de Finlande (2019) posant les bases de la 6G, veille sur les bandes Sub-THz et les architectures AI-Native. En parallèle, mon alternance chez Orange m'a permis de confronter ces perspectives à des systèmes de communication déjà déployés (infrastructures fixes et mobiles existantes).</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3201q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3201q4" class="collapse reflexif-body"><p>Distinguer les ruptures technologiques réellement structurantes (ISAC, RIS) des effets d'annonce marketing autour de la 6G a demandé un croisement rigoureux des sources (documents 3GPP et UIT plutôt que des articles de vulgarisation). Cette SAÉ étant une veille et non un déploiement concret, j'ai dû me projeter sur des systèmes que je n'ai pas manipulés physiquement.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3201q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3201q5" class="collapse reflexif-body"><p>Un système de communication d'entreprise n'est plus pensé isolément : les réseaux hybrides NTN montrent que la couverture terrestre, aérienne et satellitaire convergent vers une infrastructure unique. En S5, je déployais un système de communication concret (SAE5.01) ; en S6, j'ai appris à anticiper les systèmes que je déploierai demain.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3201q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3201q6" class="collapse reflexif-body"><p>Compléter la veille documentaire par des retours d'expérience terrain (échanges avec des ingénieurs Orange R&D) pour ancrer davantage la prospective 6G dans des contraintes de déploiement réelles et actuelles.</p></div></div>
+</div>
+  <div class="proof-box"><i class="bi bi-file-earmark-pdf-fill"></i><span><strong>Preuve :</strong> <a href="pdf/SAE6ROM01_Indira_Hugo_Clement.pdf" target="_blank">Support de veille technologique 6G — SAÉ 6.ROM.01 (PDF)</a></span></div>
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC32.02</span><h5>Déployer un réseau d'accès sans fil pour le réseau d'entreprise en intégrant les enjeux de la sécurité</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">R6.03 Connaissance de l'entreprise</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3202q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3202q1" class="collapse reflexif-body"><p>Dans le cadre de la <strong>R6.03</strong>, j'ai réalisé l'audit RGPD d'une entreprise (cas Orange) et identifié des dysfonctionnements liés à des accès non restreints et un stockage non sécurisé de données transitant potentiellement par le réseau WiFi de l'entreprise. J'ai proposé des règles associées à la connexion des collaborateurs (verrouillage de poste, stockage sécurisé OneDrive/SharePoint) qui complètent la sécurisation d'un accès sans fil au niveau organisationnel.</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3202q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3202q2" class="collapse reflexif-body"><p>La sécurité d'un réseau sans fil ne se limite pas au chiffrement radio (WPA3, 802.1X vus en S5) : elle dépend aussi de la conformité réglementaire (RGPD) des usages qui transitent sur ce réseau. Un technicien qui déploie un WiFi d'entreprise doit connaître ce cadre légal pour dimensionner ses règles de filtrage et de traçabilité.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3202q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3202q3" class="collapse reflexif-body"><p>Audit des pratiques internes de traitement des données, cartographie des flux, identification de la base légale (RGPD) de chaque usage réseau. Rédaction d'un support de sensibilisation (Canva) rappelant les réflexes de sécurité (verrouillage de poste, stockage sécurisé) applicables à toute connexion, filaire ou sans fil.</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3202q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3202q4" class="collapse reflexif-body"><p>Cette ressource aborde la sécurité sous l'angle réglementaire et organisationnel plutôt que technique (pas de configuration WLC ni de mesure de couverture radio comme en S5). Il a fallu faire le lien explicite entre une non-conformité RGPD (ex. accès non restreints) et sa traduction en règle technique de sécurisation du réseau sans fil.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3202q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3202q5" class="collapse reflexif-body"><p>La sécurité d'un réseau d'accès sans fil se joue à deux niveaux complémentaires : le niveau technique (chiffrement, authentification, vu en R5.01) et le niveau organisationnel/réglementaire (RGPD, sensibilisation des utilisateurs). Les deux sont indissociables dans une entreprise réelle.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3202q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3202q6" class="collapse reflexif-body"><p>Coupler cet audit RGPD à une vérification technique concrète du réseau WiFi de l'entreprise étudiée (SSID exposés, méthode d'authentification en place) pour vérifier la cohérence entre la politique affichée et la réalité de la configuration.</p></div></div>
+</div>
+  
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC32.03</span><h5>Déployer un réseau d'accès fixe ou mobile pour un opérateur de télécommunications en intégrant la sécurité</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAÉ 6.ROM.01</span><span class="badge-ressource">R6.ROM.04 Veille technologique</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3203q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3203q1" class="collapse reflexif-body"><p>Analyse dans la <strong>SAÉ 6.ROM.01</strong> de l'évolution du réseau d'accès opérateur vers l'IMT-2030 : bandes Sub-THz, densification extrême des sites, réseaux hybrides combinant antennes terrestres, drones et satellites LEO (NTN) pour une couverture globale unifiée. J'ai également étudié la dimension sécurité/souveraineté : protection des données dès la conception (Privacy by Design) face aux risques de la détection intégrée (ISAC) et aux décisions automatisées par IA.</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3203q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3203q2" class="collapse reflexif-body"><p>Un technicien opérateur (mon métier via l'alternance Orange) doit anticiper les évolutions du réseau d'accès qu'il déploie et exploite au quotidien. La 6G n'est pas une abstraction lointaine : les choix d'infrastructure faits aujourd'hui (fibre, sites 5G) doivent rester compatibles avec cette trajectoire.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3203q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3203q3" class="collapse reflexif-body"><p>Étude de documents normatifs UIT/3GPP, analyse des enjeux géopolitiques et de souveraineté (course aux brevets Chine/Europe/États-Unis, programme européen SNS JU), évaluation des impacts environnementaux (recherche du "Zéro Énergie", maîtrise de l'effet rebond du trafic). Mise en perspective avec les compétences terrain acquises en alternance sur les réseaux d'accès actuels.</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3203q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3203q4" class="collapse reflexif-body"><p>Le sujet croise des dimensions technique, géopolitique et réglementaire (RGPD, IA Act) rarement combinées dans une même ressource : il a fallu structurer une analyse cohérente sans se limiter à l'aspect purement radio, ce qui est plus exigeant qu'une étude technique classique.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3203q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3203q5" class="collapse reflexif-body"><p>Déployer un réseau d'accès opérateur en intégrant la sécurité, ce n'est plus seulement chiffrer un lien radio : c'est intégrer la protection des données dès la conception, face à des réseaux qui deviennent eux-mêmes capteurs (ISAC). Le métier de technicien télécom évolue vers des compétences mixtes : virtualisation, IA, cybersécurité et interconnexion spatiale.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3203q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3203q6" class="collapse reflexif-body"><p>Approfondir la dimension technique du RIS (Reconfigurable Intelligent Surfaces) par une simulation ou une maquette simplifiée, pour ne pas rester à un niveau uniquement documentaire sur cette rupture technologique.</p></div></div>
+</div>
+
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC32.04</span><h5>Permettre aux collaborateurs de se connecter de manière sécurisée au système d'information de l'entreprise</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">R6.03 Connaissance de l'entreprise</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3204q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3204q1" class="collapse reflexif-body"><p>Dans la <strong>R6.03</strong>, j'ai rédigé un guide de mise en conformité RGPD pour Orange, incluant les 6 réflexes du quotidien pour les collaborateurs : sécurité des mails, verrouillage de poste, stockage sécurisé (OneDrive/SharePoint), signalement immédiat au DPO en cas d'incident. J'ai également défini le processus de gestion des droits des personnes (accès, rectification, effacement) qui encadre toute connexion d'un collaborateur au SI.</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3204q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3204q2" class="collapse reflexif-body"><p>Permettre une connexion sécurisée ne se limite pas à un mécanisme technique (HTTPS, RADIUS vus en S5) : c'est aussi garantir que le collaborateur connecté respecte des règles de bon usage des données. Une entreprise comme Orange, soumise à un contrôle CNIL strict, ne peut pas dissocier sécurité technique et conformité réglementaire.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3204q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3204q3" class="collapse reflexif-body"><p>Audit des pratiques existantes (collecte excessive de données, durées de conservation imprécises, mails non chiffrés) et rédaction de procédures correctives structurées en 4 étapes : nomination d'un DPO et cartographie des données, détermination de la base légale, gestion des droits des personnes, documentation et traçabilité. Support de sensibilisation visuel conçu sous Canva pour diffusion aux collaborateurs.</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3204q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3204q4" class="collapse reflexif-body"><p>Traduire un cadre juridique complexe (RGPD) en règles concrètes et actionnables par un collaborateur non-juriste a demandé un effort de vulgarisation important, similaire à celui exigé lors de la soutenance SAÉ 6.Cyber.01 devant un public non-technicien.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3204q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3204q5" class="collapse reflexif-body"><p>La sécurisation d'une connexion au SI se joue autant dans le comportement du collaborateur (verrouillage de poste, stockage sécurisé) que dans la robustesse technique de l'infrastructure. C'est un complément direct à ce que j'avais mis en œuvre techniquement en S5 (RADIUS, HTTPS, Fernet) : la technique protège le canal, la gouvernance protège l'usage.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3204q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3204q6" class="collapse reflexif-body"><p>Intégrer des indicateurs de suivi (taux de participation aux sensibilisations, nombre d'incidents signalés) pour mesurer l'efficacité réelle du guide RGPD dans le temps, plutôt que de le considérer comme un livrable figé.</p></div></div>
+</div>
+  <div class="proof-box"><i class="bi bi-file-earmark-pdf-fill"></i><span><strong>Preuve :</strong> <a href="pdf/Guide_RGPD_Orange_(Indira LUIS).pdf">Guide RGPD Orange — R6.03 (PDF)</a></span></div>
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC32.05</span><h5>Collaborer en mode projet en français et en anglais</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAÉ 6.ROM.01</span><span class="badge-ressource">R6.01 Anglais pro 2</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3205q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3205q1" class="collapse reflexif-body"><p>En <strong>R6.01</strong>, j'ai obtenu la certification <strong>TOEIC</strong> après un entraînement intensif sur goFLUENT, et j'ai joué le rôle d'une pilote de ligne témoignant d'une urgence réelle dans un jeu de rôle commercial en anglais à trois intervenants (avec Hugo en pilote sceptique et Imène en commerciale) pour convaincre de l'efficacité de la VR en formation aéronautique. En parallèle, la <strong>SAÉ 6.ROM.01</strong> a été menée en autonomie de veille, avec restitution collective en groupe.</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3205q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3205q2" class="collapse reflexif-body"><p>La collaboration en mode projet ne se limite pas à la coordination technique : elle inclut la capacité à argumenter, négocier et convaincre en anglais professionnel, compétence indispensable pour un ingénieur réseau appelé à échanger avec des équipes, clients ou fournisseurs internationaux.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3205q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3205q3" class="collapse reflexif-body"><p>Préparation du TOEIC via la plateforme goFLUENT (vocabulaire business, compréhension orale/écrite, gestion du temps). Construction du role-play : accueil et cadrage professionnel, intégration d'un témoignage utilisateur pour désamorcer les objections par la preuve sociale, réponse croisée aux objections techniques, négociation aboutissant à une proposition commerciale.</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3205q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3205q4" class="collapse reflexif-body"><p>Argumenter en anglais face à un interlocuteur sceptique (le rôle du pilote joué par Hugo) exige une réactivité que la préparation seule ne suffit pas à garantir : il faut improviser des réponses en anglais tout en restant convaincant, ce qui est plus exigeant qu'un exposé préparé à l'avance.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3205q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3205q5" class="collapse reflexif-body"><p>Collaborer en anglais en mode projet, c'est bien plus que traduire des termes techniques : c'est savoir désamorcer une objection par la preuve sociale (peer-to-peer), structurer un argumentaire de négociation et clore un échange professionnel (closing). Ce sont des compétences transférables à toute collaboration internationale en contexte télécom.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6AC3205q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6AC3205q6" class="collapse reflexif-body"><p>Multiplier les mises en situation improvisées (sans script préparé) pour progresser sur la réactivité argumentative en anglais, au-delà de la préparation académique du TOEIC.</p></div></div>
+</div>
+  <div class="proof-box"><i class="bi bi-file-earmark-pdf-fill"></i><span><strong>Preuve :</strong> <a href="pdf/Role_Plays.pdf">Script role-play VR Training (anglais) — R6.01</a></span></div>
+</div>
+
+</div>
+</section>
+</main>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script>
+  AOS.init({ duration: 500, once: true });
+  function afficherBonSemestre() {
+    const hash = window.location.hash;
+    document.getElementById('section-s5').style.display = (hash === '#semestre6') ? 'none' : 'block';
+    document.getElementById('section-s6').style.display = (hash === '#semestre6') ? 'block' : 'none';
+  }
+  window.onload = afficherBonSemestre;
+  window.onhashchange = afficherBonSemestre;
+</script>
+</body>
+</html>

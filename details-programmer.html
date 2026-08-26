@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Détails AC Programmer - Indira Luis</title>
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+    body { background: #fafafa; }
+    .ac-block { margin-bottom: 36px; border-left: 5px solid #D49C74; background: #fff; box-shadow: 0 2px 18px rgba(0,0,0,0.06); border-radius: 0 8px 8px 0; overflow: hidden; }
+    .ac-header { padding: 22px 25px 18px; border-bottom: 1px solid #f0e8e0; }
+    .ac-number { color: #D49C74; font-weight: 700; font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; display: block; margin-bottom: 6px; }
+    .ac-header h5 { margin: 0; font-size: 1rem; font-weight: 600; color: #2c2c2c; line-height: 1.4; }
+    .ressources-line { padding: 10px 25px; background: #fdf6f0; border-bottom: 1px solid #f0e8e0; display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+    .ressources-line small { color: #888; font-size: 0.75rem; margin-right: 4px; }
+    .badge-ressource { background: #fff; border: 1px solid #D49C74; color: #b07a4e; font-size: 0.72rem; font-weight: 600; padding: 3px 9px; border-radius: 20px; }
+    .reflexif-accordion { padding: 4px 25px 20px; }
+    .reflexif-item { border-bottom: 1px solid #f5ede5; }
+    .reflexif-item:last-child { border-bottom: none; }
+    .reflexif-btn { background: none; border: none; width: 100%; text-align: left; padding: 13px 0; display: flex; align-items: center; gap: 10px; cursor: pointer; font-size: 0.875rem; font-weight: 600; color: #444; transition: color .2s; }
+    .reflexif-btn:hover { color: #D49C74; }
+    .reflexif-btn .r-icon { width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 0.85rem; flex-shrink: 0; }
+    .reflexif-btn .r-chevron { margin-left: auto; font-size: 0.75rem; transition: transform .25s; color: #aaa; }
+    .reflexif-btn[aria-expanded="true"] .r-chevron { transform: rotate(180deg); }
+    .reflexif-body { padding: 0 0 14px 38px; font-size: 0.875rem; line-height: 1.7; color: #555; }
+    .reflexif-body p { margin: 0 0 8px; } .reflexif-body ul { margin: 4px 0 8px; padding-left: 18px; } .reflexif-body li { margin-bottom: 4px; }
+    .q1 .r-icon { background: #e8f4f8; color: #2196a8; } .q2 .r-icon { background: #fff3e0; color: #D49C74; } .q3 .r-icon { background: #f0f7ee; color: #4caf50; }
+    .q4 .r-icon { background: #fce4ec; color: #e91e63; } .q5 .r-icon { background: #ede7f6; color: #7c4dff; } .q6 .r-icon { background: #e8f5e9; color: #388e3c; }
+    .proof-box { background: #EFD6DF; padding: 12px 16px; border-radius: 6px; margin: 12px 0 0; font-size: 0.85rem; display: flex; align-items: center; gap: 8px; }
+    .proof-box i { color: #c2606e; font-size: 1rem; flex-shrink: 0; } .proof-box a { color: #a0495a; font-weight: 600; }
+    .btn-back { background: #D49C74; color: white; margin-bottom: 28px; border-radius: 6px; }
+    .btn-back:hover { background: #b57f5a; color: white; }
+    .semestre-section { display: none; }
+    .section-title h2 { font-size: 1.6rem; } .section-title p { color: #888; font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main id="main">
+<section class="container py-5">
+<a href="services.html#skills" class="btn btn-back"><i class="bi bi-arrow-left"></i> Retour aux compétences</a>
+<div id="section-s5" class="semestre-section">
+<div class="section-title text-start mb-4">
+  <h2>UE Programmer — Semestre 5</h2>
+  <p>Apprentissages critiques AC33.01 à AC33.06 · Ressources : SAE5.01, SAE5.02, R5.01, R5.02, R5.05, R5.06, R5.08, R5.CYBER.09 · Portfolio</p>
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC33.01</span><h5>Élaborer les spécifications techniques et le cahier des charges d'une application informatique</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAE5.01</span><span class="badge-ressource">SAE5.02</span><span class="badge-ressource">R5.05 Anglais pro</span><span class="badge-ressource">R5.06 Communication</span><span class="badge-ressource">R5.08 Gestion de projets</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3301q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3301q1" class="collapse reflexif-body"><p>Dans la <strong>SAE5.02</strong>, j'ai participé à la rédaction du cahier des charges de notre projet : définition des objectifs, spécification des contraintes fonctionnelles (accès multi-utilisateurs, isolation des environnements, interface web) et techniques (Docker, HTTPS, RADIUS, MariaDB), choix de la stratégie de mise en production.</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3301q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3301q2" class="collapse reflexif-body"><p>Tout développement ou déploiement de solution informatique commence par la formalisation des besoins. Un cahier des charges mal rédigé conduit à des développements inutiles ou à des solutions inadaptées. C'est la première étape de tout projet en ingénierie.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3301q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3301q3" class="collapse reflexif-body"><p>Méthodes <strong>R5.08</strong> et <strong>R5.04</strong> : analyse du besoin, rédaction des exigences fonctionnelles et non-fonctionnelles, définition des critères d'acceptation. Utilisation d'un modèle structuré (contexte → objectifs → contraintes → livrables → planning). Document collaboratif pour l'élaboration collective.</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3301q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3301q4" class="collapse reflexif-body"><p>Distinguer les exigences fonctionnelles (ce que le système doit faire) des exigences techniques (comment il doit le faire) a demandé plusieurs itérations. Certaines contraintes n'étaient pas visibles au départ (ex : la nécessité d'Intel VT-x pour la virtualisation imbriquée).</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3301q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3301q5" class="collapse reflexif-body"><p>Un cahier des charges est un contrat implicite entre les membres de l'équipe et le commanditaire. Sa qualité conditionne tout le projet. J'ai appris à anticiper les besoins non exprimés et à les formaliser avant de commencer le développement.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3301q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3301q6" class="collapse reflexif-body"><p>Utiliser une méthode de recueil des besoins plus formelle (interviews structurées, user stories) pour s'assurer que toutes les exigences implicites sont capturées avant de démarrer.</p></div></div>
+</div>
+  
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC33.02</span><h5>Mettre en place un environnement de travail collaboratif</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAE5.01</span><span class="badge-ressource">SAE5.02</span><span class="badge-ressource">SAE5 Entreprise</span><span class="badge-ressource">R5.05 Anglais pro</span><span class="badge-ressource">R5.06 Communication</span><span class="badge-ressource">R5.08 Gestion de projets</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3302q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3302q1" class="collapse reflexif-body"><p>Mise en place d'un dépôt GitHub partagé pour le code de la SAE5.01 (versioning, branches, gestion des commits), document de rapport collaboratif, messagerie instantanée pour la coordination asynchrone. Utilisation de Docker lui-même comme outil de standardisation de l'environnement de développement (même version, mêmes dépendances pour tous). La <strong>SAE5.Entreprise</strong> m'a permis de comparer cet environnement de travail étudiant avec l'environnement collaboratif professionnel observé en alternance chez Orange (outils de ticketing, partage de configuration réseau entre techniciens).</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3302q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3302q2" class="collapse reflexif-body"><p>Sans environnement collaboratif structuré, les conflits de code, les divergences de version et les pertes d'information sont inévitables dans un projet multi-membres. La mise en place d'outils collaboratifs est préalable à toute productivité collective.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3302q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3302q3" class="collapse reflexif-body"><p>GitHub pour le versioning (branches feature/main, commits réguliers, gestion des conflits). Docker comme environnement de développement reproductible (<code>docker-compose.yml</code> partagé garantissant que tous travaillent sur le même stack). Méthodes <strong>R5.04</strong> et <strong>R5.08</strong> pour l'organisation des sprints.</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3302q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3302q4" class="collapse reflexif-body"><p>La gestion des conflits Git (merge conflicts) et la définition d'une convention de commits n'avaient pas été formalisées en amont, ce qui a causé quelques incidents de versioning en milieu de projet.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3302q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3302q5" class="collapse reflexif-body"><p>Un environnement de travail collaboratif bien configuré multiplie la productivité de l'équipe et réduit les frictions techniques. J'ai compris que Docker n'est pas seulement un outil de déploiement mais aussi un outil de standardisation du développement.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3302q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3302q6" class="collapse reflexif-body"><p>Définir une convention de commits et une stratégie de branches (GitFlow simplifié) dès le début du projet. Utiliser les Issues GitHub pour tracker le travail à faire.</p></div></div>
+</div>
+  
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC33.03</span><h5>Participer à la formation des utilisateurs</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAE5.01</span><span class="badge-ressource">R5.05 Anglais pro</span><span class="badge-ressource">R5.06 Communication</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3303q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3303q1" class="collapse reflexif-body"><p>Rédaction des procédures d'utilisation de la plateforme SAE5.01 (section "Procédures d'utilisation" du rapport) : comment cloner le projet, installer les prérequis, construire les images Docker, lancer la plateforme, l'arrêter. Ces procédures permettent à un tiers de reprendre et utiliser la plateforme sans accompagnement.</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3303q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3303q2" class="collapse reflexif-body"><p>Une solution technique sans documentation utilisateur est inutilisable au-delà de l'équipe de développement. Former les utilisateurs à l'utilisation d'un système est une responsabilité du technicien déployeur, pas seulement de l'équipe de formation.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3303q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3303q3" class="collapse reflexif-body"><p>Rédaction de procédures pas-à-pas avec commandes copiables, captures d'écran annotées et explications des concepts clés. Principes de <strong>R5.06</strong> : adapter le niveau de langage à l'audience (utilisateurs non développeurs vs administrateurs).</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3303q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3303q4" class="collapse reflexif-body"><p>Trouver le bon niveau de détail pour différents profils d'utilisateurs (étudiant qui lance un TP vs administrateur qui déploie une nouvelle image). Une procédure unique ne convient pas aux deux audiences.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3303q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3303q5" class="collapse reflexif-body"><p>La formation des utilisateurs commence par la documentation. Une bonne procédure réduit les sollicitations au support et responsabilise l'utilisateur. J'ai appris à adopter le point de vue de l'utilisateur final, pas de celui qui a conçu le système.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3303q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3303q6" class="collapse reflexif-body"><p>Créer deux niveaux de documentation distincts : "guide utilisateur" (démarrer un TP) et "guide administrateur" (déployer, maintenir, ajouter une image).</p></div></div>
+</div>
+  
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC33.04</span><h5>Déployer et maintenir une solution informatique</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAE5.01</span><span class="badge-ressource">SAE5.ROM.03</span><span class="badge-ressource">R5.02 Supervision des réseaux</span><span class="badge-ressource">R5.ROM.09 Services multimédia</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3304q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3304q1" class="collapse reflexif-body"><p>Déploiement complet de la plateforme SAE5.01 en production sur deux VMs VMware : construction des images Docker, démarrage via Docker Compose, configuration Nginx, démarrage du serveur RADIUS. Monitoring post-déploiement : vérification de l'état des conteneurs (<code>docker ps</code>), analyse des logs (<code>docker logs</code>), supervision via Portainer. J'ai déployé et maintenu une seconde application distincte dans le cadre de la <strong>SAE5.ROM.03</strong> : un serveur de téléphonie Asterisk sous Alpine Linux, avec son propre cycle de maintenance (mise à jour des fichiers de configuration SIP/dialplan, suivi de l'interface d'administration AJAM développée en HTML/AJAX pour visualiser en direct les peers SIP et canaux actifs).</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3304q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3304q2" class="collapse reflexif-body"><p>Déployer une solution ne se limite pas à la faire fonctionner une fois : il faut prévoir son maintien en conditions opérationnelles (MCO), la gestion des incidents et les mises à jour. Cette logique de maintenance est au cœur du métier d'exploitant réseau chez Orange.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3304q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3304q3" class="collapse reflexif-body"><p><code>docker compose up -d</code> pour le déploiement initial, <code>docker compose down/up</code> pour les mises à jour. Monitoring : <code>docker stats</code> pour les ressources, <code>docker logs --follow</code> pour les incidents en temps réel. Portainer pour l'interface de supervision graphique. Principes de <strong>R5.02</strong> : métrologie, gestion des logs, API de supervision. Pour l'application Asterisk (<strong>R5.ROM.09</strong>/SAE5.ROM.03) : maintenance via édition directe de <code>pjsip.conf</code>/<code>extensions.conf</code>/<code>voicemail.conf</code>, activation du serveur HTTP embarqué (<code>http.conf</code>, port 8088) pour une administration à distance via requêtes AJAX.</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3304q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3304q4" class="collapse reflexif-body"><p>La maintenance d'une infrastructure Docker implique de gérer les mises à jour d'images (rebuild) sans interrompre le service — problème classique de haute disponibilité. Sur un mononœud, cela impose un arrêt de service momentané.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3304q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3304q5" class="collapse reflexif-body"><p>La supervision est une compétence à part entière. Les logs Docker sont riches mais bruts : sans agrégation (SIEM, ELK), il est difficile de détecter des patterns d'incidents. J'ai compris l'importance d'un système de supervision centralisé au-delà des simples commandes Docker.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3304q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3304q6" class="collapse reflexif-body"><p>Mettre en place un pipeline CI/CD simple (GitHub Actions) pour automatiser les builds d'images et les déploiements. Intégrer un système de monitoring (Grafana/Prometheus) pour avoir des alertes proactives.</p></div></div>
+</div>
+  
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC33.05</span><h5>S'informer sur les évolutions et les nouveautés technologiques</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAE5.01</span><span class="badge-ressource">R5.01 WiFi avancé</span><span class="badge-ressource">R5.05 Anglais pro</span><span class="badge-ressource">R5.08 Gestion de projets</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3305q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3305q1" class="collapse reflexif-body"><p>Veille technologique continue tout au long du S5 : suivi des évolutions Docker (migration v1→v2 de Compose), normes WiFi 6/6E/7 (802.11ax/be) vues en <strong>R5.01</strong>, évolutions de la sécurité WiFi (WPA3, 802.1X), nouvelles fonctionnalités Flask. Consultation de la documentation officielle (en anglais), blogs techniques, release notes.</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3305q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3305q2" class="collapse reflexif-body"><p>Les technologies réseau et télécoms évoluent rapidement. Un technicien qui n'effectue pas de veille voit ses compétences devenir obsolètes en 2-3 ans. La veille est une discipline professionnelle, pas une activité accessoire.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3305q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3305q3" class="collapse reflexif-body"><p>Sources : documentation officielle Docker Hub, Flask, RADIUS ; RFC IETF ; blogs techniques (Cisco, Juniper, Red Hat) ; normes IEEE 802.11. En <strong>R5.01</strong> : analyse comparative des générations WiFi (WiFi 4/5/6/7), compréhension de l'apport de chaque génération (OFDMA, MU-MIMO, TWT). Lecture en anglais des sources primaires.</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3305q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3305q4" class="collapse reflexif-body"><p>Distinguer les évolutions significatives des "buzzwords" marketing n'est pas immédiat. Docker Compose v2 était présentée comme une évolution mineure mais a nécessité une migration non triviale en cours de projet.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3305q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3305q5" class="collapse reflexif-body"><p>La veille technologique doit être méthodique et régulière, pas opportuniste. Avoir découvert le problème Docker Compose v1/v2 par la pratique (erreur de déploiement) plutôt que par une veille proactive m'a coûté du temps de projet.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3305q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3305q6" class="collapse reflexif-body"><p>Mettre en place des flux RSS ou abonnements à des newsletters spécialisées (Docker Weekly, Networking Weekly) pour une veille systématique. Tester les nouvelles versions en environnement bac à sable avant de les intégrer en projet.</p></div></div>
+</div>
+  
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC33.06</span><h5>Sécuriser l'environnement numérique d'une application</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAE5.01</span><span class="badge-ressource">R5.02 Supervision</span><span class="badge-ressource">R5.CYBER.09</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3306q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3306q1" class="collapse reflexif-body"><p>Dans la <strong>SAE5.01</strong>, mise en place d'une sécurisation multicouche : HTTPS obligatoire via Nginx (TLS, redirection HTTP→HTTPS), authentification centralisée RADIUS/AD, isolation des environnements par utilisateur (Docker + MariaDB), chiffrement des secrets applicatifs (Fernet AES-128, fichier <code>.env</code> hors Git), supervision des accès. Connaissances <strong>R5.CYBER.09</strong> mobilisées pour la réflexion sur les vecteurs d'attaque.</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3306q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3306q2" class="collapse reflexif-body"><p>Toute application exposée sur le réseau est une cible potentielle. La sécurisation n'est pas optionnelle : un accès non authentifié à la plateforme permettrait à n'importe qui de lancer des conteneurs Kali sur l'infrastructure, ce qui est inacceptable.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3306q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3306q3" class="collapse reflexif-body"><p>HTTPS (Nginx + OpenSSL, redirection 301 HTTP→HTTPS). RADIUS pour l'authentification. Docker network isolation (les conteneurs ne communiquent pas entre eux sauf si explicitement configuré). Chiffrement Fernet (symétrique AES-128, HMAC intégrité). Principe du moindre privilège (un utilisateur n'accède qu'à ses propres conteneurs).</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3306q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3306q4" class="collapse reflexif-body"><p>La gestion des mots de passe MariaDB en clair dans docker-compose.yml (contrainte de la syntaxe) a été identifiée comme une vulnérabilité que nous n'avons pas pu résoudre complètement. Les secrets Docker Swarm auraient été la bonne solution, mais nous n'utilisions pas Swarm.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3306q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3306q5" class="collapse reflexif-body"><p>La sécurité d'une application est un système : une vulnérabilité dans un seul composant peut compromettre l'ensemble. J'ai intégré le principe de défense en profondeur (plusieurs couches de sécurité indépendantes) et compris que le chiffrement du transport (HTTPS) ne suffit pas à protéger les données au repos.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s5pAC3306q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s5pAC3306q6" class="collapse reflexif-body"><p>Utiliser Docker Secrets pour les variables sensibles plutôt que des variables d'environnement en clair dans Compose. Réaliser un audit de sécurité (scan de ports, test d'injection) sur la plateforme avant mise en production.</p></div></div>
+</div>
+  
+</div>
+
+</div>
+<div id="section-s6" class="semestre-section">
+<div class="section-title text-start mb-4">
+  <h2>UE Programmer — Semestre 6</h2>
+  <p>Apprentissages critiques AC33.01 à AC33.06 · Ressources : SAÉ 6.ROM.01, SAÉ 6.Cyber.01, SAÉ 6.Entreprise, R6.01, R6.03 · Portfolio</p>
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC33.01</span><h5>Élaborer les spécifications techniques et le cahier des charges d'une application informatique</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAÉ 6.ROM.01</span><span class="badge-ressource">R6.03 Connaissance de l'entreprise</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3301q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3301q1" class="collapse reflexif-body"><p>Dans la <strong>SAÉ 6.ROM.01</strong>, j'ai formalisé le cadrage de ma veille technologique comme un mini-cahier des charges documentaire : objectif (analyser les ruptures IMT-2030), périmètre (technique, socio-économique, réglementaire, métier), sources à mobiliser (UIT, 3GPP) et livrables attendus (synthèse écrite structurée). En <strong>R6.03</strong>, j'ai également contribué à la définition des exigences d'un guide de conformité RGPD pour Orange (objectifs, contraintes légales CNIL, livrables de sensibilisation).</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3301q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3301q2" class="collapse reflexif-body"><p>Même un travail de veille ou de conformité nécessite un cadrage explicite : sans périmètre défini, l'exploration devient infinie et perd en pertinence pour un jury ou un commanditaire. Cadrer un livrable avant de le produire est une discipline transférable de la SAE5.01 (cahier des charges technique) à des livrables plus documentaires.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3301q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3301q3" class="collapse reflexif-body"><p>Définition en amont des axes d'analyse (ruptures technologiques, enjeux socio-économiques et réglementaires, évolution du métier), sélection des sources faisant autorité (documents normatifs UIT/3GPP plutôt que vulgarisation), structuration du livrable final en parties cohérentes reprenant la même logique que le cahier des charges de la SAE5.01 en S5 (contexte → objectifs → contraintes → livrables).</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3301q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3301q4" class="collapse reflexif-body"><p>Cadrer un travail de veille est plus flou que cadrer une application : il n'y a pas de fonctionnalités à lister, mais un périmètre de connaissances à délimiter. J'ai dû resserrer plusieurs fois mon périmètre initial (trop large) pour rester exploitable dans le temps imparti.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3301q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3301q5" class="collapse reflexif-body"><p>La logique de cahier des charges s'applique au-delà du développement logiciel : tout livrable professionnel (rapport de veille, guide de conformité) gagne à être cadré avec la même rigueur qu'une spécification technique. C'est une compétence méthodologique transversale, pas seulement un formalisme de développeur.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3301q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3301q6" class="collapse reflexif-body"><p>Rédiger un cadrage écrit formel avant de démarrer la veille (comme un mini cahier des charges d'une page), plutôt que de le garder implicite dans ma tête, pour pouvoir le faire valider en amont par l'encadrant.</p></div></div>
+</div>
+  
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC33.02</span><h5>Mettre en place un environnement de travail collaboratif</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAÉ 6.ROM.01</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3302q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3302q1" class="collapse reflexif-body"><p>Bien que la <strong>SAÉ 6.ROM.01</strong> ait été menée principalement en autonomie individuelle de veille, la restitution finale s'est faite en groupe avec mise en commun des analyses. J'ai utilisé un document collaboratif partagé pour structurer la synthèse collective et confronter les angles d'analyse (technique, réglementaire, métier) de chaque membre.</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3302q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3302q2" class="collapse reflexif-body"><p>Même une veille individuelle gagne à être confrontée collectivement : elle évite les angles morts et enrichit l'analyse par la diversité des points de vue. Un environnement de travail collaboratif reste nécessaire pour synthétiser des contributions individuelles en un livrable cohérent.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3302q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3302q3" class="collapse reflexif-body"><p>Document collaboratif partagé (structure commune imposée pour faciliter la fusion des contributions), points de synchronisation pour partager l'avancement individuel de veille. Reprise de la logique GitHub/documents partagés déjà expérimentée en S5 sur la SAE5.01, adaptée à un livrable documentaire plutôt que du code.</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3302q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3302q4" class="collapse reflexif-body"><p>Fusionner des analyses individuelles rédigées séparément (styles et niveaux de détail hétérogènes) en un document homogène a demandé un effort d'harmonisation supplémentaire par rapport à un travail collaboratif dès l'origine comme en S5.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3302q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3302q5" class="collapse reflexif-body"><p>Un environnement collaboratif n'a pas besoin d'être mis en place dès le premier jour pour être efficace : il peut intervenir en phase de convergence, à condition que la structure de fusion soit anticipée. C'est une autre manière de collaborer que le travail en continu vécu en S5.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3302q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3302q6" class="collapse reflexif-body"><p>Définir un gabarit de rédaction commun dès le lancement de la veille individuelle, pour réduire le travail d'harmonisation lors de la fusion finale.</p></div></div>
+</div>
+  
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC33.03</span><h5>Participer à la formation des utilisateurs</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">R6.01 Anglais pro 2</span><span class="badge-ressource">R6.03 Connaissance de l'entreprise</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3303q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3303q1" class="collapse reflexif-body"><p>Dans la <strong>R6.03</strong>, conception d'un support de sensibilisation visuel (Canva) présentant les 6 réflexes du quotidien RGPD à destination des collaborateurs Orange, conçu pour être présenté à l'oral en formation interne. Dans <strong>R6.01</strong>, le jeu de rôle VR Training m'a placée en position d'expliquer pédagogiquement à un utilisateur sceptique (le pilote) le fonctionnement et les bénéfices d'un nouvel outil — posture proche de la formation utilisateur.</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3303q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3303q2" class="collapse reflexif-body"><p>Former des utilisateurs à de nouvelles pratiques (RGPD, nouvel outil technologique) exige la même pédagogie qu'une documentation technique (S5) mais dans un registre différent : convaincre et faire adopter un comportement plutôt que simplement transmettre une procédure.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3303q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3303q3" class="collapse reflexif-body"><p>Support visuel synthétique (Canva) plutôt qu'un document texte long, pour maximiser la mémorisation par les collaborateurs. Dans le role-play R6.01, utilisation d'un témoignage utilisateur concret (preuve sociale) pour désamorcer le scepticisme, plutôt qu'un argumentaire purement descriptif.</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3303q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3303q4" class="collapse reflexif-body"><p>Former à un changement de comportement (RGPD) est plus difficile que former à l'usage d'un outil (procédures SAE5.01) : le public n'a pas toujours conscience du risque, il faut donc d'abord convaincre de l'utilité avant même d'expliquer la procédure.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3303q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3303q5" class="collapse reflexif-body"><p>Former des utilisateurs, ce n'est pas qu'écrire un mode d'emploi (comme en S5) : c'est aussi convaincre de l'importance d'une pratique avant de l'expliquer techniquement. Le témoignage terrain (peer-to-peer) est souvent plus efficace qu'une injonction descendante.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3303q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3303q6" class="collapse reflexif-body"><p>Prévoir un temps de questions-réponses après la diffusion du support RGPD pour vérifier la bonne compréhension des collaborateurs, plutôt que de considérer la diffusion du support comme suffisante.</p></div></div>
+</div>
+  
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC33.04</span><h5>Déployer et maintenir une solution informatique</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAÉ 6.ROM.01</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3304q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3304q1" class="collapse reflexif-body"><p>La <strong>SAÉ 6.ROM.01</strong> étant une veille prospective et non un déploiement, cet AC n'a pas été mobilisé par une réalisation concrète ce semestre. J'ai en revanche pu observer en alternance chez Orange des cycles réels de maintien en conditions opérationnelles sur des infrastructures existantes, sans en être directement responsable.</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3304q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3304q2" class="collapse reflexif-body"><p><em>Sans objet ce semestre — cet AC a été principalement travaillé en S5 (SAE5.01, plateforme Docker) et sera de nouveau mobilisé lors du déploiement effectif du SI conçu en SAÉ 6.Cyber.01.</em></p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3304q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3304q3" class="collapse reflexif-body"><p><em>Sans objet ce semestre. Voir AC33.04 de la SAE5.01 (S5) pour la démarche de déploiement et de maintenance déjà mise en œuvre.</em></p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3304q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3304q4" class="collapse reflexif-body"><p><em>Sans objet ce semestre.</em></p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3304q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3304q5" class="collapse reflexif-body"><p>Observer en alternance des équipes qui maintiennent des infrastructures en conditions opérationnelles réelles m'a confirmé que le MCO est un métier à part entière, distinct de la conception (SAÉ 6.Cyber.01) : la charge de travail liée à l'exploitation quotidienne (tickets, incidents, mises à jour) est souvent sous-estimée dans les projets académiques.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3304q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3304q6" class="collapse reflexif-body"><p>Profiter d'une prochaine SAE pour concevoir un projet incluant explicitement une phase de maintenance simulée (incidents injectés volontairement) afin de retravailler concrètement cet AC en contexte de déploiement réel.</p></div></div>
+</div>
+  
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC33.05</span><h5>S'informer sur les évolutions et les nouveautés technologiques</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAÉ 6.ROM.01</span><span class="badge-ressource">R6.ROM.04 Veille technologique</span><span class="badge-ressource">R6.01 Anglais pro 2</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3305q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3305q1" class="collapse reflexif-body"><p>Réalisation complète de la <strong>SAÉ 6.ROM.01</strong> — une veille technologique approfondie sur la transition 5G vers 6G (standard IMT-2030) : bandes Sub-THz, antennes RIS, architecture AI-Native, détection intégrée (ISAC), réseaux hybrides NTN. Analyse croisée des enjeux socio-économiques (décarbonation, sobriété), géopolitiques (souveraineté, brevets) et réglementaires (RGPD, IA Act).</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3305q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3305q2" class="collapse reflexif-body"><p>Un technicien télécom qui ignore les ruptures technologiques à venir prend le risque de voir ses compétences obsolètes avant même la fin de sa carrière. Ancrer ma veille dans mon expérience d'alternance chez Orange donne une dimension concrète et professionnelle à cette prospective académique.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3305q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3305q3" class="collapse reflexif-body"><p>Analyse de documents prospectifs et normatifs (UIT, 3GPP) rédigés en anglais (compétence renforcée par <strong>R6.01</strong>), étude du sommet 6G de Finlande (2019), synthèse structurée en 3 parties (ruptures technologiques, enjeux socio-économiques/réglementaires, évolution du métier de technicien). Confrontation des perspectives théoriques à mon expérience terrain en déploiement/maintenance télécoms.</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3305q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3305q4" class="collapse reflexif-body"><p>Trier une masse d'informations prospectives disponibles sur la 6G (souvent contradictoires ou spéculatives selon les sources) pour ne retenir que les éléments réellement validés par les instances normatives (3GPP, UIT) a demandé un sens critique renforcé par rapport à la veille S5 (Docker, WiFi), plus factuelle.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3305q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3305q5" class="collapse reflexif-body"><p>La veille technologique évolue avec l'expérience : en S5 elle portait sur des outils que j'utilisais directement (Docker, WiFi) ; en S6 elle porte sur un standard qui n'existe pas encore mais qui structure déjà les investissements des opérateurs. Anticiper est aussi important que maîtriser l'existant pour un futur ingénieur cybersécurité/réseaux.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3305q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3305q6" class="collapse reflexif-body"><p>Mettre en place une veille continue et non ponctuelle sur la 6G (alertes Google Scholar, suivi des publications 3GPP) pour capitaliser sur ce travail au-delà de la SAÉ, notamment dans la perspective de mon alternance en cybersécurité à l'OSIIC.</p></div></div>
+</div>
+  <div class="proof-box"><i class="bi bi-file-earmark-pdf-fill"></i><span><strong>Preuve :</strong> <a href="pdf/SAE6ROM01_Indira_Hugo_Clement.pdf" target="_blank">Support de veille technologique 6G — SAÉ 6.ROM.01 (PDF)</a></span></div>
+</div>
+<div class="ac-block" data-aos="fade-up">
+  <div class="ac-header"><span class="ac-number">AC33.06</span><h5>Sécuriser l'environnement numérique d'une application</h5></div>
+  <div class="ressources-line"><small>Ressources :</small><span class="badge-ressource">SAÉ 6.Cyber.01</span></div>
+  <div class="reflexif-accordion">
+  <div class="reflexif-item q1"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3306q1" aria-expanded="false"><span class="r-icon"><i class="bi bi-clipboard-check"></i></span>Ce que j'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3306q1" class="collapse reflexif-body"><p>Dans la <strong>SAÉ 6.Cyber.01</strong>, j'ai intégré la sécurisation applicative à l'échelle d'un SI complet : segmentation par VLANs, cluster de firewalls FortiGate en haute disponibilité, authentification forte MFA/YubiKey pour l'accès aux applications sensibles (zone R&D), déploiement Microsoft Intune (MDM) pour sécuriser les terminaux accédant aux applications de l'entreprise, et politique de sauvegarde 3-2-1 avec immutabilité (Object Lock) pour protéger les données applicatives contre les ransomwares.</p></div></div>
+  <div class="reflexif-item q2"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3306q2" aria-expanded="false"><span class="r-icon"><i class="bi bi-question-circle"></i></span>Pourquoi je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3306q2" class="collapse reflexif-body"><p>En S5, j'avais sécurisé une application isolée (plateforme SAE5.01). En S6, il fallait passer à l'échelle : sécuriser l'environnement numérique de <strong>toutes</strong> les applications d'une entreprise de 80 collaborateurs, avec des niveaux de sensibilité différenciés (R&D vs bureautique) et une menace ransomware bien plus réaliste à ce niveau d'exposition.</p></div></div>
+  <div class="reflexif-item q3"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3306q3" aria-expanded="false"><span class="r-icon"><i class="bi bi-tools"></i></span>Comment je l'ai fait<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3306q3" class="collapse reflexif-body"><p>Défense en profondeur reprenant les principes <strong>R6.Cyber.04</strong> : réduction de la surface d'attaque (moindre privilège), MFA/YubiKey pour l'authentification forte, segmentation VLAN pour cloisonner les applications par zone de confiance, Intune pour la conformité des postes, sauvegardes 3-2-1 immuables pour la résilience face aux ransomwares (RTO &lt; 4h, RPO &lt; 60 min).</p></div></div>
+  <div class="reflexif-item q4"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3306q4" aria-expanded="false"><span class="r-icon"><i class="bi bi-exclamation-triangle"></i></span>Mes difficultés<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3306q4" class="collapse reflexif-body"><p>Concilier la sécurité applicative avec l'expérience utilisateur (un MFA trop contraignant peut pousser les collaborateurs à contourner les procédures) a nécessité un arbitrage : j'ai réservé le YubiKey aux applications les plus critiques (R&D) plutôt qu'à l'ensemble du SI.</p></div></div>
+  <div class="reflexif-item q5"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3306q5" aria-expanded="false"><span class="r-icon"><i class="bi bi-lightbulb"></i></span>Ce que j'en ai appris<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3306q5" class="collapse reflexif-body"><p>Sécuriser une application isolée (S5) et sécuriser l'environnement numérique global d'une entreprise (S6) sont deux échelles de problème différentes : la seconde impose une hiérarchisation des niveaux de sensibilité et un arbitrage constant entre sécurité et facilité d'usage, que l'échelle SAE5.01 ne posait pas.</p></div></div>
+  <div class="reflexif-item q6"><button class="reflexif-btn" data-bs-toggle="collapse" data-bs-target="#s6pAC3306q6" aria-expanded="false"><span class="r-icon"><i class="bi bi-arrow-repeat"></i></span>Ce que je ferais autrement<i class="bi bi-chevron-down r-chevron"></i></button>
+  <div id="s6pAC3306q6" class="collapse reflexif-body"><p>Documenter une politique de patch management applicatif (fréquence des mises à jour, gestion des fins de support) — point identifié comme manquant dans le rapport SAÉ 6.Cyber.01 et essentiel à la sécurité applicative dans la durée.</p></div></div>
+</div>
+  <div class="proof-box"><i class="bi bi-file-earmark-pdf-fill"></i><span><strong>Preuve :</strong> <a href="pdf/SAE6CYBER01_Indira_LUIS.pdf" target="_blank">Rapport SAE6Cyber.01 — Sécurisation applicative et SI (PDF)</a></span></div>
+</div>
+
+</div>
+</section>
+</main>
+<script src="assets/vendor/aos/aos.js"></script>
+<script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script>
+  AOS.init({ duration: 500, once: true });
+  function afficherBonSemestre() {
+    const hash = window.location.hash;
+    document.getElementById('section-s5').style.display = (hash === '#semestre6') ? 'none' : 'block';
+    document.getElementById('section-s6').style.display = (hash === '#semestre6') ? 'block' : 'none';
+  }
+  window.onload = afficherBonSemestre;
+  window.onhashchange = afficherBonSemestre;
+</script>
+</body>
+</html>
